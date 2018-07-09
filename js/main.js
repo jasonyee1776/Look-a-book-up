@@ -33,7 +33,7 @@ function bookSearch() {
         type: 'GET'
     })
 }
-document.getElementById('searchButton').addEventListener('click', bookSearch, false);
+document.getElementById('search-button').addEventListener('click', bookSearch, false);
 
 
 {/* <p id='overflow' class='m-2 p-3'> ${data.items[i].volumeInfo.description} </p> */}
