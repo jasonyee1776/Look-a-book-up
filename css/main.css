@@ -1,0 +1,35 @@
+body {
+    background-image: url('../img/paper.jpg')
+}
+
+header {
+    font-family: 'Galada', cursive;
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+#results {
+    font-family: 'Raleway', sans-serif;
+}
+
+#overflow {
+    height: 175px;
+    overflow: auto;
+    border-top: 7px solid #036473;
+    border-radius: 0 15% 5% 0;
+    background-color: aliceblue;
+    background-image: url('../img/paper.png')
+}
+
+
+.search-result {
+    
+    border: 2px solid gray;
+    background-color: beige;
+}
+
+div h4 {
+    color:red
+}
