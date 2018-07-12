@@ -26,6 +26,9 @@ function bookSearch() {
                                         </div>`
                 // document.getElementById(`author${[i]}`).style.fontFamily = 'Gravitas One, cursive';
                 document.getElementById(`title${[i]}`).style.fontFamily = 'Gravitas One, cursive';
+                document.getElementById(`author${[i]}`).style.textDecoration = 'underline';
+                document.getElementsByClassName('search-result').style.opacity = '0.9';
+                 
 
                 
             }
